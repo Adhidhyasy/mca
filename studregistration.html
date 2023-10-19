@@ -1,0 +1,158 @@
+<html>
+<head>
+<style>
+.reg
+{
+  border:none;
+}
+</style>
+</head>
+<b><center><h1>STUDENT REGISTRATION FORM</h1></center></b>
+<body>
+<center>
+<table border="3">
+<form align="center">
+<center>
+<tr>
+<th><label for="fn"><b>FIRSTNAME</b></label></th>
+<td><input type="text" id="fn" name="firstname" class="reg">(max 30 characters)<br></td></tr>
+
+<tr>
+<th><label for="ln"><b>LASTNAME</b></label></th>
+<td><input type="text" id="ln" name="lastname" class="reg">(max 30 characters)<br></td><tr>
+
+<tr>
+<th><label for="dob"><b>DATE OF BIRTH</b></label></th>
+<td><input type="date" id="dob" class="reg"><br></td></tr>
+
+
+<tr>
+<th><label for="ei"><b>EMAIL ID</b></label></th>
+<td><input type="text" id="ei" name="email id" value="" class="reg"><br></td><tr>
+
+<tr>
+<th><label for="mn"><b>MOBILE NUMBER</b></label></th>
+<td><input type="text" id="mn" name="mobile number" class="reg">(10 digit numbers)<br></td><tr>
+
+<tr>
+<th><b>GENDER</b></th>
+<td><label for="f1">FEMALE</label>
+<input type="radio" name="gender" value="f" id="f1">
+<label for="m1">MALE</label>
+<input type="radio" name="gender" value="m" id="m1"><br></td></tr>
+
+<tr>
+<th><label><b>Address</b></th>
+<td><textarea rows="5" cols="10" class="reg"></textarea></label></th></tr>
+
+<tr>
+<th><label for="ci"><b>CITY</b></label></th>
+<td><input type="text" id="ci" name="city" class="reg">(max 30 characters)<br></td><tr>
+
+<tr>
+<th><label for="pc"><b>PINCODE</b></label></th>
+<td><input type="text" id="pc" name="pincode" class="reg">(6 digit numbers)<br></td><tr>
+
+<tr>
+<th><label for="sat"><b>STATE</b></label></th>
+<td><input type="text" id="sat" name="state" class="reg">(max 30 characters)<br></td><tr>
+
+<tr>
+<th><label for="con"><b>COUNTRY</b></label></th>
+<td><input type="text" id="con" name="country" value="INDIA" class="reg"><br></td><tr>
+
+<tr>
+<th><b>HOBBIES</b></th>
+<td><label for="dr1">DRAWING</label>
+<input type="checkbox" name="drawing" value="dr" id="dr1">
+<label for="si1">SINGING</label>
+<input type="checkbox" name="singing" value="si" id="si1">
+<label for="da1">DANCING</label>
+<input type="checkbox" name="dancing" value="da" id="da1">
+<label for="sk1">SKETCHING</label>
+<input type="checkbox" name="sketching" value="sk" id="sk1">
+<label for="ot1">OTHERS</label>
+<input type="checkbox" name="others" value="ot" id="ot1"></td>
+<br></th></tr>
+
+<tr>
+<th><b>QUALIFICATION</b></th>
+<td><table>
+
+<th>SL.NO</th>
+<th>EXAMINATION</th>
+<th>BOARD</th>
+<th>PERCENTAGE</th>
+<th>YEAR OF PASS</th>
+</tr>
+
+<tr>
+<th>1</th>
+<td><b>SSLC</b></td>
+<td><input type="text" class="reg" name="class x" maxlength=10><br></td>
+<td><input type="text" class="reg" name="percentage" maxlength=5></td>
+<td><input type="text" class="reg" name="year1" maxlength=4></td></tr>
+
+<tr>
+<th>2</th>
+<td><b>PLUS TWO</b></td>
+<td><input type="text" class="reg" name="class xii" maxlength=10><br></td>
+<td><input type="text" class="reg" name="percentage" maxlength=5></td>
+<td><input type="text" class="reg" name="year2" maxlength=4></td></tr>
+
+<tr>
+<th>3</th>
+<td><b>GRADUATION</b></td>
+<td><input type="text" class="reg" name="grad" maxlength=10><br></td>
+<td><input type="text" class="reg" name="percentage" maxlength=5></td>
+<td><input type="text" class="reg" name="year3" maxlength=4></td></tr>
+
+<tr>
+<th>4</th>
+<td><b>MASTER</b></td>
+<td><input type="text" class="reg" name="master" maxlength=10><br></td>
+<td><input type="text" class="reg" name="percentage" maxlength=5></td>
+<td><input type="text" class="reg" name="year4" maxlength=4></td></tr>
+
+<tr>
+<td></td>
+<td></td>
+<td align="center"><small>(10 max char)</small></td>
+<td align="center"><small>(upto 2 decimal)</small></td>
+<td></td>
+</tr>
+</td>
+</table>
+
+<tr>
+<th><b>COURSES APPLIED FOR</b></th>
+<td><label for="mc"> MCA </label>
+<input type="radio" name="mca" value="mc1" id="mc">
+<label for="mt"> M.TECH </label>
+<input type="radio" name="m.tech" value="mt1" id="mt">
+<label for="ms"> M.SC </label>
+<input type="radio" name="m.sc" value="ms1" id="ms">
+<label for="ph"> PH.D </label>
+<input type="radio" name="ph.d" value="ph1" id="ph"><br></td></tr>
+
+<tr>
+<th><label><b> TYPE YOUR PASSWORD</b></label></th>
+<td><input type="password" name="password" value="" class="reg">(max 30 characters)<br></td></tr>
+
+<tr>
+<th><label><b>UPLOAD YOUR PHOTO</b></label></th>
+<td><input type="file" name="photo" value=""><br></td></tr>
+
+<tr>
+<th><label for="dot"><b>DATE OF TC</b></label></th>
+<td><input type="date" id="dot" class="reg"><br></td></tr>
+
+<tr>
+<th colspan=2><input type="submit" value="submit">
+<input type="reset"></th></tr>
+
+</form>
+</table>
+</center>
+</body>
+</html>
